@@ -22,7 +22,7 @@ function renderTodoList() {
   });
 
   document.querySelector('.js-todo-list')
-    .innerHTML = todoListHTML;
+    .innerHTML = todoListHTML ;
 
   document.querySelectorAll('.js-delete-todo-button')
     .forEach((deleteButton, index) => {
